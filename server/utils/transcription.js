@@ -1,6 +1,3 @@
 export const transcriptionExample = `
-O JavaScript é uma linguagem de programação voltada para o desenvolvimento web, 
-criada originalmente para funcionar do lado do usuário, ou seja, nos navegadores. 
-Junto do HTML e do CSS, é uma das principais tecnologias da web permitindo 
-a criação de páginas interativas com elementos dinâmicos.
+Welcome back to Starfield! This game is quite interesting. A lot of people wanted to know kind of my first impressions. The overall gameplay experience has been great. I'm about five hours into the game so far as once I take off and I do go to space. Some of the flying with the mouse is a little bit low FPS with the cursor. How big of a complaint is that? But this is not your typical game. If I could just have a classic FPS, all the bullets go exactly where I want to aim and have them go. I think it'd be quite a bit different. It's a lot more about the exploration, about the experience of the game. And with that said, I am enjoying it.
 `

@@ -9,18 +9,18 @@ export async function transcribe(audio) {
 
     const transcribe = await pipeline(
       "automatic-speech-recognition",
-      "Xenova/whisper-small"
+      "Xenova/whisper-small.en"
     )
     const transcription = await transcribe(audio, {
       chunk_length_s: 30,
       stride_length_s: 5,
-      language: "portuguese",
+      //language: "portuguese",
       task: "transcribe",
     })
 
     console.log("Transcrição finalizada com sucesso!")
 
-    return transcription?.text.replace("[Música]", "")
+    return transcription?.text.replace("[Song]", "")
   } catch (error) {
     throw new Error(error)
   }
